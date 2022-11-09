@@ -4,6 +4,7 @@
     "prepare-server":"cd server && npm install",
     "heroku-postbuild": "npm run prepare-client && npm run prepare-server",
     "start": "cd server && npm start"
+	"node": "6.11.1"
   }
   
 }
