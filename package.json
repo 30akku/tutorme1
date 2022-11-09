@@ -1,10 +1,17 @@
 {
+
+  "name": "myapp",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.11.1"
+  },
   "scripts": {
+	"node": "6.11.1"
     "prepare-client":"cd client && npm install && npm run build",
     "prepare-server":"cd server && npm install",
     "heroku-postbuild": "npm run prepare-client && npm run prepare-server",
     "start": "cd server && npm start"
-	"node": "6.11.1"
   }
   
 }
